@@ -3,10 +3,13 @@ import Link from "next/link";
 
 const navigation = [
   { label: "Overview", href: "/" },
+  { label: "About", href: "/#about" },
+  { label: "Experience", href: "/#experience" },
   { label: "Projects", href: "/#projects" },
   { label: "Engineering", href: "/#engineering" },
   { label: "Docs", href: "/docs" },
   { label: "Contact", href: "/#contact" },
+  { label: "Skills", href: "/#skills" },
 ];
 
 export function Navbar() {
@@ -47,8 +50,6 @@ export function Navbar() {
               </Link>
             ))}
           </nav>
-
-         
         </div>
       </div>
     </header>
